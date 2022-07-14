@@ -1,8 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import './category_meals_screen.dart';
-import './categories_screen.dart';
+import '../screens/category_meals_screen.dart';
+import '../screens/categories_screen.dart';
 
 void main() => runApp(MyApp());
 
