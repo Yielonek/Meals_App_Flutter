@@ -21,6 +21,11 @@ class CategoryMealsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           categoryTitle,
+          style: TextStyle(
+            fontFamily: 'Raleway',
+            fontSize: 20,
+            fontWeight: FontWeight.w300,
+          ),
         ),
       ),
       body: ListView.builder(
